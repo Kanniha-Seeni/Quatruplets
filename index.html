@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Canary — AI-native assessment</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Pyodide: runs real Python entirely in the browser sandbox (WASM).
+         This is what "controlled environment" partly refers to -- candidate
+         code never touches your server. -->
+    <script src="https://cdn.jsdelivr.net/pyodide/v0.26.2/full/pyodide.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
